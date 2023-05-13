@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionClear"/>
+   </widget>
+   <widget class="QMenu" name="menuArea_Color">
+    <property name="title">
+     <string>Area Color</string>
+    </property>
+    <addaction name="action_color_red"/>
+    <addaction name="separator"/>
+    <addaction name="action_color_green"/>
+    <addaction name="separator"/>
+    <addaction name="action_color_yellow"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuArea_Color"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Save.png</normaloff>../../../../../.designer/backup/Resources/Icons/Save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Refresh.png</normaloff>../../../../../.designer/backup/Resources/Icons/Refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="action3px">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Three.png</normaloff>../../../../../.designer/backup/Resources/Icons/Three.png</iconset>
+   </property>
+   <property name="text">
+    <string>3px</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+3</string>
+   </property>
+  </action>
+  <action name="action5px">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Five.png</normaloff>../../../../../.designer/backup/Resources/Icons/Five.png</iconset>
+   </property>
+   <property name="text">
+    <string>5px</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+5</string>
+   </property>
+  </action>
+  <action name="action7px">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Seven.png</normaloff>../../../../../.designer/backup/Resources/Icons/Seven.png</iconset>
+   </property>
+   <property name="text">
+    <string>7px</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+7</string>
+   </property>
+  </action>
+  <action name="action9px">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Nine.png</normaloff>../../../../../.designer/backup/Resources/Icons/Nine.png</iconset>
+   </property>
+   <property name="text">
+    <string>9px</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+9</string>
+   </property>
+  </action>
+  <action name="actionBlack">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Solid_black.svg.png</normaloff>../../../../../.designer/backup/Resources/Icons/Solid_black.svg.png</iconset>
+   </property>
+   <property name="text">
+    <string>Black</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+B</string>
+   </property>
+  </action>
+  <action name="actionRed">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Solid_red.svg.png</normaloff>../../../../../.designer/backup/Resources/Icons/Solid_red.svg.png</iconset>
+   </property>
+   <property name="text">
+    <string>Red</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+R</string>
+   </property>
+  </action>
+  <action name="actionGreen">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Solid_green.svg.png</normaloff>../../../../../.designer/backup/Resources/Icons/Solid_green.svg.png</iconset>
+   </property>
+   <property name="text">
+    <string>Green</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+G</string>
+   </property>
+  </action>
+  <action name="actionYellow">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/1024px-Solid_yellow.svg.png</normaloff>../../../../../.designer/backup/Resources/Icons/1024px-Solid_yellow.svg.png</iconset>
+   </property>
+   <property name="text">
+    <string>Yellow</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Y</string>
+   </property>
+  </action>
+  <action name="actionWhite">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../.designer/backup/Resources/Icons/Solid_white.svg.png</normaloff>../../../../../.designer/backup/Resources/Icons/Solid_white.svg.png</iconset>
+   </property>
+   <property name="text">
+    <string>White</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+W</string>
+   </property>
+  </action>
+  <action name="action_color_red">
+   <property name="text">
+    <string>Red</string>
+   </property>
+  </action>
+  <action name="action_color_green">
+   <property name="text">
+    <string>Green</string>
+   </property>
+  </action>
+  <action name="action_color_yellow">
+   <property name="text">
+    <string>Yellow</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
